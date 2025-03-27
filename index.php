@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar CineLentes</title>
+    <title>Página Inicial - Cinelentes</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
-<body>
-    <header class="navbar-container">
-        <nav class="navbar">
-            <div class="navbar-left">
-                <img src="./imagens/Sesi_Senai.png" alt="SESI SENAI">
-            </div>
-            <div class="navbar-center">
-                <img src="/imagens/logo-cinelentes.png" alt="CineLentes" class="logo">
+<body class="body-pagina-inicial">
+    <header class="header-container">
+        <nav class="parte-cima-header-container">
+                <img id="logo-sesi-senai" src="./img/logo-sesi-senai.png" alt="SESI SENAI">
+            <div class="container-logo-cinelentes">
+                <img id="logo-cinelentes" src="img/logo-cinelentes.png" alt="CineLentes" class="logo">
             </div>
         </nav>
         <div class="navbar-divider"></div>
