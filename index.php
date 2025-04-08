@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial - Cinelentes</title>
     <link rel="stylesheet" href="./style/style.css">
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js   "></script>
 </head>
 <body class="body-pagina-inicial">
     <header class="header-container">
@@ -16,20 +16,18 @@
         <div class="linha-branca"></div>
         <div class="navbar-menu-container">
             <ul class="navbar-menu">
-                <li><a class="informacoes-navbar-menu" href="#">INÍCIO</a></li>
-                <li><a id="edicoes-animacao" class="informacoes-navbar-menu" href="#">EDIÇÕES</a></li>
-                <li><a class="informacoes-navbar-menu" href="#">QUEM SOMOS</a></li>
-                <li><a class="informacoes-navbar-menu" href="#">AGENDA</a></li>
-            </ul>
-                    <div id="edicoes-apos-passar-mouse">
-            <div id="alinhar-edicoes">
-                <div id="linha-edicoes"></div>
-                <ul>
-                    <li class="edicoes-margem"><a class="lista-edicoes" href="#">Edição 2023</a></li>
-                    <li class="edicoes-margem"><a class="lista-edicoes" href="#">Edição 2024</a></li>
-                    <li class="edicoes-margem"><a class="lista-edicoes" href="#">Edição 2025</a></li>
-                </ul>
-            </div>
+                <li><a class="informacoes-navbar-menu" href="index.php">INÍCIO</a></li>
+                <div class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">EDIÇÕES</a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./php/edicao2023.php">EDIÇÃO 2023</a>
+                        <a href="./php/edicao2024.php">EDIÇÃO 2024</a>
+                        <a href="./php/edicao2025.php">EDIÇÃO 2025</a>
+                    </div>
+                </div>
+                <li><a class="informacoes-navbar-menu" href="./php/quem-somos.php">QUEM SOMOS</a></li>
+                <li><a class="informacoes-navbar-menu" href="index.php">AGENDA</a></li>
+            </ul>     
         </div>
     </header>
     <main>
