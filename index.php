@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial - Cinelentes</title>
     <link rel="stylesheet" href="./style/style.css">
-    <script src="./js/main.js   "></script>
+    <script src="./js/main.js"></script>
 </head>
 <body class="body-pagina-inicial">
     <header class="header-container">
