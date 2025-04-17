@@ -8,8 +8,8 @@
 </head>
 <body class="body-redefinir-senha">
     
-  <div class="card-login">
-    <div class="container">
+  <div class="card-redefinir-senha">
+    <div class="container-redefinir-senha">
       <div class="lado-esquerdo">
         <div class="logo">
           <img id="imagem-logo" src="../img/logo-cinelentes.png" alt="logo-cinelentes" />
@@ -19,22 +19,17 @@
      
 
       <div class="lado-direito">
-        <form class="login-form">
-          <h2 class="texto-login">LOGIN</h2>
+        <form class="redefinir-senha-form">
+          <h2 class="texto-redefinir-senha">Redefinir Senha</h2>
 
-          <div class="input-inform">
+          <div class="input-inform-redefinir-senha">
             <img class="img-icon" src="../img/imagem-email-removebg-preview.png" alt="">
-            <input class="input-email-senha" type="email" placeholder="Email" required />
+            <input class="input-email-redefinir-senha" type="email" placeholder="Insira seu e-mail para receber o código" required />
           </div>
 
-          <div class="input-inform">
-            <img class="img-icon" src="../img/img-icon-senha.png" alt="">
-            <input class="input-email-senha" type="password" placeholder="Senha" required />
-          </div>
+          <button type="submit" class="botao-enviar">Enviar</button>
 
-          <button type="submit" class="botao-entrar">ENTRAR</button>
-
-          <a href="#" class="bot-esqueceu-senha">Esqueceu a senha?</a>
+    
         </form>
       </div>
     </div>

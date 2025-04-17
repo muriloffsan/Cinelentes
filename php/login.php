@@ -9,7 +9,7 @@
 <body class="body-login">
     
   <div class="card-login">
-    <div class="container">
+    <div class="container-login">
       <div class="lado-esquerdo">
         <div class="logo">
           <img id="imagem-logo" src="../img/logo-cinelentes.png" alt="logo-cinelentes" />
