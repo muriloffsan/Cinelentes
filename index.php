@@ -31,8 +31,24 @@
         </div>
     </header>
     <main>
-        <section class="introducao">
-        </section>
+        <div id="grid-introducao">
+            <div id="titulo">
+                <h1 class="titulo-pagina-inicial">O que é o Cinelentes?</h1>
+            </div>
+            <div class="linha"></div>
+            <div class="introducao-texto">
+                <p class="conteudo-introducao">O Projeto “Cinelentes” tem o objetivo de fomentar a cultura no ambiente escolar, democratizando o acesso ao cinema e outras linguagens artísticas/culturais. Proporcionar um ambiente de interação, debate e criatividade que envolve não só o corpo docente e discente, mas toda a comunidade escolar, proporcionando a criticidade necessária para buscar novas lentes através de curtas metragens. Durante cada mês serão abordados temas relacionados a datas comemorativas relevantes daquele mês.</p>
+            </div>
+            <div class="logo-introducao">
+                <img src="./img/logo-cinelentes.png" alt="">
+            </div>
+        </div>
+        <div id="grid-destaque">
+            <div id="titulo-destaque">
+                <h1 class="titulo-pagina-inicial">Destaques</h1>
+            </div>
+            <div class="linha"></div>
+        </div>
     </main>
 </body>
 </html>

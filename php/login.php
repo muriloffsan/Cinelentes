@@ -15,9 +15,6 @@
           <img id="imagem-logo" src="../img/logo-cinelentes.png" alt="logo-cinelentes" />
         </div>
       </div>
-
-     
-
       <div class="lado-direito">
         <form class="login-form">
           <h2 class="texto-login">LOGIN</h2>
@@ -34,7 +31,7 @@
 
           <button type="submit" class="botao-entrar">ENTRAR</button>
 
-          <a href="#" class="bot-esqueceu-senha">Esqueceu a senha?</a>
+          <a href="redefinir-senha.php" class="bot-esqueceu-senha">Esqueceu a senha?</a>
         </form>
       </div>
     </div>
