@@ -50,6 +50,23 @@
             <div class="linha"></div>
         </div>
     </main>
+    <footer class="footer-container">
+    <div class="footer-topo">
+        <div class="footer-logo-container">
+            <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="CineLentes">
+        </div>
+
+        <div class="botao-login-container">
+            <a href="./php/login.php" class="botao-login">Login Administrador</a>
+        </div>
+    </div>
+
+    <div class="linha-branca-footer"></div>
+
+    <div class="linha-preta-footer">
+        <p class="footer-direitos">Todos os direitos reservados.</p>
+    </div>
+</footer>
 </body>
 </html>
 
