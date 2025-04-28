@@ -48,30 +48,39 @@
             <div id="titulo">
                 <h1 class="titulo-pagina-inicial">Destaques</h1>
             </div>
-            <div class="linha-oque-cinelentes"></div>
-        <div class="alinhamento-carrossel">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="linha-destaques"></div>
+            <div class="alinhamento-carrossel" style="grid-column: 1 / span 2;">
+                <div class="carousel-container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" >
-                            <img id="tamanho_da_imagem" class="d-block w-100" src="./img/logo-sesi-senai.png" alt="Primeiro Slide">
-                            <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-item active">
+                        <img src="./img/logo-sesi-senai.png" class="d-block w-100" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
                             <h5>Dia da Mulher</h5>
                         </div>
-                    </div>  
-                    <div class="carousel-item" >
-                        <img id="tamanho_da_imagem" class="d-block w-100" src="./img/logo-cinelentes.png" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./img/logo-cinelentes.png" class="d-block w-100" alt="Segundo Slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Dia da Consciência Negra</h5>
                         </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
                     </div>
                 </div>
+            </div>
 
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -87,7 +96,7 @@
         <div id="grid-agenda">
             <div id="titulo-agenda">
                 <h1 class="titulo-pagina-inicial">Agenda</h1>
-                <p>Nenhum evento programado...</p>
+                <p class="agenda-texto">Nenhum evento programado...</p>
             </div>
             <div class="linha-agenda"></div>
         </div>

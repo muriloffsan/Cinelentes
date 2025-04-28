@@ -215,14 +215,15 @@ html {
 /* ---------------------- PÁGINA INICIAL ---------------------- */
 
 #grid-introducao,
-#grid-destaque {
+#grid-destaques {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
 
 #titulo,
-#titulo-destaque {
+#titulo-destaque,
+#titulo-agenda {
   display: flex;
   align-items: center;
   margin-top: 70px;
@@ -236,6 +237,14 @@ html {
 }
 
 .linha-oque-cinelentes {
+  margin-top: 97px;
+  margin-right: 50px;
+  width: 800px;
+  height: 1.5px;
+  background-color: black;
+}
+
+.linha-destaques {
   margin-top: 97px;
   margin-right: 50px;
   width: 800px;
@@ -266,33 +275,35 @@ html {
 }
 
 .carousel {
-  margin-top: 11%;
+  margin-top: 30px;
   position: relative;
   justify-content: center;
   display: flex;
-
-  width: 90%;
 }
 
 .alinhamento-carrossel {
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .d-block {
-  width: 100% !important;
-  height: 30% !important;
+  width: 100%;
+  height: auto;
 }
 
-.carousel-item {
-  position: relative;
+.carousel-item img {
+  width: 80%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 #tamanho_da_imagem {
-  width: 100%;
-  height: 70vh !important;
+  width: 500px;
+  max-width: 100%;
+  height: 70vh;
   object-fit: cover;
   z-index: 1;
   border-radius: 30px;
@@ -310,6 +321,7 @@ html {
   z-index: 2;
   border-radius: 30px;
 }
+
 /* ---------------------- QUEM SOMOS ---------------------- */
 
 .equipe-container {
