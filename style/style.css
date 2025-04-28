@@ -706,4 +706,139 @@ html {
 .botao-criar-projeto:hover {
     background-color: #026c0c; 
 }
+/* --- CRIAR PROJETO --- */
+.main-container {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+}
 
+.main-container section {
+  margin-bottom: 4rem;
+  padding: 2rem 0;
+  border-top: 2px solid #ccc;
+}
+
+.input-titulo-projeto,
+.textarea-conteudo-projeto,
+.textarea-habilidades,
+.textarea-feedback,
+.input-musica {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #000;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-titulo-projeto::placeholder,
+.textarea-conteudo-projeto::placeholder,
+.textarea-habilidades::placeholder,
+.textarea-feedback::placeholder,
+.input-musica::placeholder {
+  color: #333;
+}
+
+.botao-upload {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-upload:hover {
+  background-color: #cc0000;
+}
+
+.botao-confirmar {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  margin: 2rem auto 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.botao-confirmar:hover {
+  background-color: #218838;
+}
+
+.upload-final-video,
+.upload-buttons > div {
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.secao-inicial {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.musica-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.musica-item .botao-upload {
+  width: 80px;
+  height: 80px;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.icone-play {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.main-container section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.upload-buttons p,
+.upload-final-video p {
+  font-size: 0.9rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}

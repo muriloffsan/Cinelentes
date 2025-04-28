@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinelentes</title>
+    <title>Página Inicial - Cinelentes</title>
     <link rel="stylesheet" href="../style/style.css">
     <script src="../js/main.js"></script>
 </head>
@@ -24,6 +24,7 @@
                     <a href="./php/edicao2023.php">EDIÇÃO 2023</a>
                     <a href="./php/edicao2024.php">EDIÇÃO 2024</a>
                     <a href="./php/edicao2025.php">EDIÇÃO 2025</a>
+                    <a href="./criar-projeto-adm.php">EDIÇÃO 2026</a>               
                 </div>
             </div>
             <li><a class="informacoes-navbar-menu" href="./php/quem-somos.php">QUEM SOMOS</a></li>
@@ -82,6 +83,7 @@
 
 <footer class="footer-container">
     <div class="footer-topo">
+        <div class="div-vazia"></div>
         <div class="footer-logo-container">
             <img id="logo-cinelentes-footer" src="../img/logo-cinelentes.png" alt="CineLentes">
         </div>
