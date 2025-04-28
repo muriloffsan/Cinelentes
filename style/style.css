@@ -6,6 +6,10 @@
   font-family: Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ---------------------- HEADER ---------------------- */
 
 .header-container {
@@ -214,6 +218,7 @@
 #grid-destaque {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
 #titulo,
@@ -230,10 +235,17 @@
   font-size: 32px;
 }
 
-.linha {
+.linha-oque-cinelentes {
   margin-top: 97px;
   margin-right: 50px;
-  width: 700px;
+  width: 800px;
+  height: 1.5px;
+  background-color: black;
+}
+
+.linha-destaques {
+  margin-top: 97px;
+  width: 80%;
   height: 1.5px;
   background-color: black;
 }
@@ -244,12 +256,14 @@
 }
 
 .conteudo-introducao {
+  width: 400px;
   font-size: 20px;
   text-align: justify;
 }
 
 .logo-introducao {
-  margin: 50px 0 0 150px;
+  margin-left: 100px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   width: 600px;
@@ -258,6 +272,51 @@
   border-radius: 20px;
 }
 
+.carousel {
+  margin-top: 11%;
+  position: relative;
+  justify-content: center;
+  display: flex;
+
+  width: 90%;
+}
+
+.alinhamento-carrossel {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-block {
+  width: 100% !important;
+  height: 30% !important;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+#tamanho_da_imagem {
+  width: 100%;
+  height: 70vh !important;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0 !important;
+  right: 0 !important;
+  padding: 10px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  color: white;
+  text-align: center;
+  z-index: 2;
+  border-radius: 30px;
+}
 /* ---------------------- QUEM SOMOS ---------------------- */
 
 .equipe-container {
@@ -323,12 +382,13 @@
   padding-top: 4px; 
 }
 
-
 #logo-cinelentes-footer {
   height: 70px;
   width: auto;
 }
+
 .botao-login {
+  display: flex;
   background-color: #c0392b; 
   color: white;
   padding: 10px 20px;
@@ -365,8 +425,12 @@
 .footer-topo {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: space-between; 
   position: relative;
   padding: 0 32px;
   height: 100px;
+}
+
+.div-vazia{
+  width: 170px;
 }

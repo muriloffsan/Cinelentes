@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           <h2 class="texto-login">LOGIN</h2>
 
           <div class="input-inform">
-            <img class="img-icon" src="../img/imagem-email-removebg-preview.png" alt="">
+            <img class="img-icon" src="../img/img-email.png" alt="">
             <input class="input-email-senha" type="email" name="email" placeholder="Email" required />
           </div>
 

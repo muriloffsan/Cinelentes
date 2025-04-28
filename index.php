@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <li><a class="informacoes-navbar-menu" href="./php/quem-somos.php">QUEM SOMOS</a></li>
-                <li><a class="informacoes-navbar-menu" href="index.php">AGENDA</a></li>
+                <li><a class="informacoes-navbar-menu" href="#grid-agenda">AGENDA</a></li>
             </ul>     
         </div>
     </header>
@@ -35,7 +35,7 @@
             <div id="titulo">
                 <h1 class="titulo-pagina-inicial">O que é o Cinelentes?</h1>
             </div>
-            <div class="linha"></div>
+            <div class="linha-oque-cinelentes"></div>
             <div class="introducao-texto">
                 <p class="conteudo-introducao">O Projeto “Cinelentes” tem o objetivo de fomentar a cultura no ambiente escolar, democratizando o acesso ao cinema e outras linguagens artísticas/culturais. Proporcionar um ambiente de interação, debate e criatividade que envolve não só o corpo docente e discente, mas toda a comunidade escolar, proporcionando a criticidade necessária para buscar novas lentes através de curtas metragens. Durante cada mês serão abordados temas relacionados a datas comemorativas relevantes daquele mês.</p>
             </div>
@@ -43,15 +43,74 @@
                 <img src="./img/logo-cinelentes.png" alt="">
             </div>
         </div>
-        <div id="grid-destaque">
-            <div id="titulo-destaque">
-                <h1 class="titulo-pagina-inicial">Destaques</h1>
+        <div class="alinhamento-carrossel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <img id="tamanho_da_imagem" class="d-block w-100" src="./img/archaeological-cave-paintings.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>História Primitiva</h5>
+                </div>
             </div>
-            <div class="linha"></div>
+
+                <div class="carousel-item" >
+                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/historia_antiga.jpg" alt="Segundo Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>História Antiga</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item" >
+                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/idade_media.jpg" alt="Terceiro Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Idade Média</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item" >
+                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/idade_moderna.jpg" alt="Quarto Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Idade Moderna</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item" >
+                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/idade_contemporanea.jpg" alt="Quarto Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Idade Contemporânea</h5>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+                </div>
+            </div> 
+
+        <div id="grid-agenda">
+            <div id="titulo-agenda">
+                <h1 class="titulo-pagina-inicial">Agenda</h1>
+                <p>Nenhum evento programado...</p>
+            </div>
+            <div class="linha-agenda"></div>
         </div>
     </main>
     <footer class="footer-container">
     <div class="footer-topo">
+        <div class="div-vazia"></div>
         <div class="footer-logo-container">
             <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="CineLentes">
         </div>

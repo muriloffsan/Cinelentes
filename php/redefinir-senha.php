@@ -23,7 +23,7 @@
           <h2 class="texto-redefinir-senha">Redefinir Senha</h2>
 
           <div class="input-inform-redefinir-senha">
-            <img class="img-icon" src="../img/imagem-email-removebg-preview.png" alt="">
+            <img class="img-icon" src="../img/img-email.png" alt="">
             <input class="input-email-redefinir-senha" type="email" placeholder="Insira seu e-mail para receber o código" required />
           </div>
 
