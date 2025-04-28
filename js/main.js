@@ -1,3 +1,4 @@
+// Function dropdown página inicial
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }

@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login - Cinelentes</title>
+  <title>Cinelentes</title>
   <link rel="stylesheet" href="../style/style.css"/>
 </head>
 <body class="body-login">
@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           <h2 class="texto-login">LOGIN</h2>
 
           <div class="input-inform">
-            <img class="img-icon" src="../img/imagem-email-removebg-preview.png" alt="">
+            <img class="img-icon" src="../img/img-email.png" alt="">
             <input class="input-email-senha" type="email" name="email" placeholder="Email" required />
           </div>
 

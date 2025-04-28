@@ -1,8 +1,16 @@
+/* Reset padrão */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------------------- HEADER ---------------------- */
 
 .header-container {
   background-color: black;
@@ -48,34 +56,24 @@
   padding-left: 20px;
 }
 
-.informacoes-navbar-menu {
+.informacoes-navbar-menu,
+.dropbtn {
   text-decoration: none;
   color: white;
   font-weight: bold;
   margin-right: 35px;
-}
-
-.informacoes-navbar-menu:hover {
-  transition: 0.7s;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-
-/* Edições */
-.dropbtn {
-  color: white;
+  background: none;
   border: none;
   cursor: pointer;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 35px;
 }
 
+.informacoes-navbar-menu:hover,
 .dropbtn:hover {
-  transition: 0.7s;
   color: rgba(255, 255, 255, 0.5);
+  transition: 0.7s;
 }
 
+/* Dropdown */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -86,7 +84,7 @@
   position: absolute;
   background-color: #f1f1f1;
   min-width: 140px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -105,119 +103,9 @@
   display: block;
 }
 
-.body-login {
-  height: 100vh;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* ---------------------- LOGIN E REDEFINIR SENHA ---------------------- */
 
-.card-login {
-  height: 100vh;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-login {
-  width: 800px;
-  height: 600px;
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-}
-
-.container-login {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.lado-esquerdo {
-  width: 50%;
-  background-color: #000;
-  border-top-right-radius: 1000px;
-  border-bottom-right-radius: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#imagem-logo {
-  width: 300px;
-  height: auto;
-}
-
-.lado-direito {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  background-color: #fff;
-}
-
-.login-form {
-  width: 100%;
-  max-width: 300px;
-}
-
-.texto-login {
-  font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.input-inform {
-  display: flex;
-  align-items: center;
-  background-color: #f1f1f1;
-  padding: 10px 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
-
-.input-email-senha {
-  border: none;
-  background: none;
-  outline: none;
-  width: 100%;
-}
-
-.botao-entrar {
-  width: 100%;
-  padding: 12px;
-  background-color: #d82323;
-  color: #fff;
-  font-weight: 700;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-
-.bot-esqueceu-senha {
-  font-size: 12px;
-  text-align: center;
-  display: block;
-  color: #000;
-  font-weight: 600;
-}
-
-.img-icon {
-  width: 6%;
-  margin-right: 4px;
-}
-
-/* ------------------------- REDEFINIR SENHA ------------------------- */
-
+.body-login,
 .body-redefinir-senha {
   height: 100vh;
   background-color: #f5f5f5;
@@ -226,6 +114,7 @@
   align-items: center;
 }
 
+.card-login,
 .card-redefinir-senha {
   width: 800px;
   height: 600px;
@@ -233,8 +122,10 @@
   border-radius: 20px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
   overflow: hidden;
+  display: flex;
 }
 
+.container-login,
 .container-redefinir-senha {
   display: flex;
   width: 100%;
@@ -262,32 +153,23 @@
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background-color: #fff;
 }
 
-.login-form {
-  width: 100%;
-  max-width: 300px;
-}
-
+.login-form,
 .redefinir-senha-form {
   width: 100%;
   max-width: 300px;
 }
 
+.texto-login,
 .texto-redefinir-senha {
   font-size: 28px;
   font-weight: 800;
   margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
-.input-inform {
-  text-transform: uppercase;
-}
-
+.input-inform,
 .input-inform-redefinir-senha {
   display: flex;
   align-items: center;
@@ -297,13 +179,7 @@
   border-radius: 5px;
 }
 
-.input-email-senha {
-  border: none;
-  background: none;
-  outline: none;
-  width: 100%;
-}
-
+.input-email-senha,
 .input-email-redefinir-senha {
   border: none;
   background: none;
@@ -311,6 +187,7 @@
   width: 100%;
 }
 
+.botao-entrar,
 .botao-enviar {
   width: 100%;
   padding: 12px;
@@ -326,7 +203,6 @@
 .bot-esqueceu-senha {
   font-size: 12px;
   text-align: center;
-  display: block;
   color: #000;
   font-weight: 600;
 }
@@ -336,14 +212,18 @@
   margin-right: 4px;
 }
 
-/* ---------------------------------Página Inicial--------------------------------------- */
+/* ---------------------- PÁGINA INICIAL ---------------------- */
 
-#grid-introducao {
+#grid-introducao,
+#grid-destaques {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
-#titulo {
+#titulo,
+#titulo-destaque,
+#titulo-agenda {
   display: flex;
   align-items: center;
   margin-top: 70px;
@@ -356,11 +236,18 @@
   font-size: 32px;
 }
 
-.linha {
+.linha-oque-cinelentes {
   margin-top: 97px;
-  display: flex;
   margin-right: 50px;
-  width: 900px;
+  width: 800px;
+  height: 1.5px;
+  background-color: black;
+}
+
+.linha-destaques {
+  margin-top: 97px;
+  margin-right: 50px;
+  width: 800px;
   height: 1.5px;
   background-color: black;
 }
@@ -371,13 +258,14 @@
 }
 
 .conteudo-introducao {
+  width: 400px;
   font-size: 20px;
   text-align: justify;
 }
 
 .logo-introducao {
-  margin-left: 150px;
-  margin-top: 50px;
+  margin-left: 100px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   width: 600px;
@@ -386,20 +274,55 @@
   border-radius: 20px;
 }
 
-#grid-destaque {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#titulo-destaque {
+.carousel {
+  margin-top: 30px;
+  position: relative;
+  justify-content: center;
   display: flex;
-  align-items: center;
-  margin-top: 70px;
-  margin-left: 90px;
-  width: 390px;
 }
 
-/* -------------------------- QUEM SOMOS  ------------------------- */
+.alinhamento-carrossel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.d-block {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item img {
+  width: 80%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+#tamanho_da_imagem {
+  width: 500px;
+  max-width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0 !important;
+  right: 0 !important;
+  padding: 10px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  color: white;
+  text-align: center;
+  z-index: 2;
+  border-radius: 30px;
+}
+
+/* ---------------------- QUEM SOMOS ---------------------- */
 
 .equipe-container {
   text-align: center;
@@ -446,8 +369,7 @@
   width: 100%;
   border-radius: 50%;
   background-color: #ccc;
-  padding: 8px; 
-  box-sizing: border-box;
+  padding: 8px;
 }
 
 .nome-idealizador,
@@ -456,467 +378,8 @@
   font-size: 16px;
   font-weight: 500;
 }
-/* ----------------------------- FOOTER ----------------------------- */
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-.header-container {
-  background-color: black;
-}
-
-.parte-cima-header-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-  height: 115px;
-}
-
-#logo-sesi-senai {
-  position: absolute;
-  left: 20px;
-  height: 40px;
-}
-
-#logo-cinelentes {
-  width: auto;
-  height: 100px;
-}
-
-.linha-branca {
-  border-top: 2px solid white;
-  width: 100%;
-}
-
-.navbar-menu-container {
-  width: 100%;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.navbar-menu {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 20px;
-}
-
-.informacoes-navbar-menu {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  margin-right: 35px;
-}
-
-.informacoes-navbar-menu:hover {
-  transition: 0.7s;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-
-/* Edições */
-.dropbtn {
-  color: white;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 35px;
-}
-
-.dropbtn:hover {
-  transition: 0.7s;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 140px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.show {
-  display: block;
-}
-
-.body-login {
-  height: 100vh;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-login {
-  height: 100vh;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-login {
-  width: 800px;
-  height: 600px;
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-}
-
-.container-login {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.lado-esquerdo {
-  width: 50%;
-  background-color: #000;
-  border-top-right-radius: 1000px;
-  border-bottom-right-radius: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#imagem-logo {
-  width: 300px;
-  height: auto;
-}
-
-.lado-direito {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  background-color: #fff;
-}
-
-.login-form {
-  width: 100%;
-  max-width: 300px;
-}
-
-.texto-login {
-  font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.input-inform {
-  display: flex;
-  align-items: center;
-  background-color: #f1f1f1;
-  padding: 10px 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
-
-.input-email-senha {
-  border: none;
-  background: none;
-  outline: none;
-  width: 100%;
-}
-
-.botao-entrar {
-  width: 100%;
-  padding: 12px;
-  background-color: #d82323;
-  color: #fff;
-  font-weight: 700;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-
-.bot-esqueceu-senha {
-  font-size: 12px;
-  text-align: center;
-  display: block;
-  color: #000;
-  font-weight: 600;
-}
-
-.img-icon {
-  width: 6%;
-  margin-right: 4px;
-}
-
-/* ------------------------- REDEFINIR SENHA ------------------------- */
-
-.body-redefinir-senha {
-  height: 100vh;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-redefinir-senha {
-  width: 800px;
-  height: 600px;
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-}
-
-.container-redefinir-senha {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.lado-esquerdo {
-  width: 50%;
-  background-color: #000;
-  border-top-right-radius: 1000px;
-  border-bottom-right-radius: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#imagem-logo {
-  width: 300px;
-  height: auto;
-}
-
-.lado-direito {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  background-color: #fff;
-}
-
-.login-form {
-  width: 100%;
-  max-width: 300px;
-}
-
-.redefinir-senha-form {
-  width: 100%;
-  max-width: 300px;
-}
-
-.texto-redefinir-senha {
-  font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.input-inform {
-  text-transform: uppercase;
-}
-
-.input-inform-redefinir-senha {
-  display: flex;
-  align-items: center;
-  background-color: #f1f1f1;
-  padding: 10px 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
-
-.input-email-senha {
-  border: none;
-  background: none;
-  outline: none;
-  width: 100%;
-}
-
-.input-email-redefinir-senha {
-  border: none;
-  background: none;
-  outline: none;
-  width: 100%;
-}
-
-.botao-enviar {
-  width: 100%;
-  padding: 12px;
-  background-color: #d82323;
-  color: #fff;
-  font-weight: 700;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-
-.bot-esqueceu-senha {
-  font-size: 12px;
-  text-align: center;
-  display: block;
-  color: #000;
-  font-weight: 600;
-}
-
-.img-icon {
-  width: 6%;
-  margin-right: 4px;
-}
-
-/* ---------------------------------Página Inicial--------------------------------------- */
-
-#grid-introducao {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#titulo {
-  display: flex;
-  align-items: center;
-  margin-top: 70px;
-  margin-left: 90px;
-  width: 390px;
-}
-
-.titulo-pagina-inicial {
-  font-weight: 900;
-  font-size: 32px;
-}
-
-.linha {
-  margin-top: 97px;
-  display: flex;
-  margin-right: 50px;
-  width: 900px;
-  height: 1.5px;
-  background-color: black;
-}
-
-.introducao-texto {
-  margin-top: 30px;
-  margin-left: 100px;
-}
-
-.conteudo-introducao {
-  font-size: 20px;
-  text-align: justify;
-}
-
-.logo-introducao {
-  margin-left: 150px;
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  width: 600px;
-  height: 200px;
-  background-color: black;
-  border-radius: 20px;
-}
-
-#grid-destaque {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#titulo-destaque {
-  display: flex;
-  align-items: center;
-  margin-top: 70px;
-  margin-left: 90px;
-  width: 390px;
-}
-
-/* -------------------------- QUEM SOMOS  ------------------------- */
-
-.equipe-container {
-  text-align: center;
-  padding: 64px 32px;
-  background-color: #f5f5f5;
-}
-
-.titulo-equipe {
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 48px;
-}
-
-.secao-idealizadores,
-.secao-desenvolvedores {
-  margin-bottom: 64px;
-}
-
-.titulo-idealizadores,
-.titulo-desenvolvedores {
-  font-size: 28px;
-  margin-bottom: 24px;
-  border-bottom: 2px solid #000;
-  display: inline-block;
-  padding-bottom: 8px;
-}
-
-.idealizadores,
-.desenvolvedores {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 48px;
-  margin-top: 32px;
-}
-
-.idealizador,
-.desenvolvedor {
-  width: 180px;
-}
-
-.imagem-idealizador,
-.imagem-desenvolvedor {
-  width: 100%;
-  border-radius: 50%;
-  background-color: #ccc;
-  padding: 8px; 
-  box-sizing: border-box;
-}
-
-.nome-idealizador,
-.nome-desenvolvedor {
-  margin-top: 12px;
-  font-size: 16px;
-  font-weight: 500;
-}
-/* ----------------------------- FOOTER ----------------------------- */
+/* FOOTER */
 
 .footer-container {
   background-color: black;
@@ -924,12 +387,13 @@
   padding-top: 4px; 
 }
 
-
 #logo-cinelentes-footer {
   height: 70px;
   width: auto;
 }
+
 .botao-login {
+  display: flex;
   background-color: #c0392b; 
   color: white;
   padding: 10px 20px;
@@ -966,11 +430,12 @@
 .footer-topo {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: space-between; 
   position: relative;
   padding: 0 32px;
   height: 100px;
 }
+<<<<<<< HEAD
 .botao-login-container {
   position: absolute;
   right: 32px; 
@@ -1240,4 +705,9 @@
 }
 .botao-criar-projeto:hover {
     background-color: #026c0c; 
+=======
+
+.div-vazia{
+  width: 170px;
+>>>>>>> b6b8ac7fc05ff64746cadf641d896ea0d5bc2d77
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial - Cinelentes</title>
+    <title>Cinelentes</title>
     <link rel="stylesheet" href="../style/style.css">
     <script src="../js/main.js"></script>
 </head>
@@ -39,15 +39,15 @@
         <h2 class="titulo-idealizadores">Idealizadores</h2>
         <div class="idealizadores">
             <div class="idealizador">
-                <img class="imagem-idealizador" src="../img/avatar-15.png" alt="Prof">
+                <img class="imagem-idealizador" src="../img/img-icon-avatar.png" alt="Prof">
                 <p class="nome-idealizador">Profª Sabrina Lina Figueiredo Gonçalves</p>
             </div>
             <div class="idealizador">
-                <img class="imagem-idealizador" src="../img/avatar-15.png" alt="Prof">
+                <img class="imagem-idealizador" src="../img/img-icon-avatar.png" alt="Prof">
                 <p class="nome-idealizador">Profº José Roberto de Lima</p>
             </div>
             <div class="idealizador">
-                <img class="imagem-idealizador" src="../img/avatar-15.png" alt="Prof">
+                <img class="imagem-idealizador" src="../img/img-icon-avatar.png" alt="Prof">
                 <p class="nome-idealizador">Profº Rogério de Souza Junior</p>
             </div>
         </div>
@@ -57,23 +57,23 @@
         <h2 class="titulo-desenvolvedores">Desenvolvido por</h2>
         <div class="desenvolvedores">
             <div class="desenvolvedor">
-                <img class="imagem-desenvolvedor" src="../img/avatar-15.png" alt="Pedro">
+                <img class="imagem-desenvolvedor" src="../img/img-icon-avatar.png" alt="Pedro">
                 <p class="nome-desenvolvedor">Pedro Henrique de Petta Zocatelli</p>
             </div>
             <div class="desenvolvedor">
-                <img class="imagem-desenvolvedor" src="../img/avatar-15.png" alt="Victor">
+                <img class="imagem-desenvolvedor" src="../img/img-icon-avatar.png" alt="Victor">
                 <p class="nome-desenvolvedor">Victor Luiz Koba Batista</p>
             </div>
             <div class="desenvolvedor">
-                <img class="imagem-desenvolvedor" src="../img/avatar-15.png" alt="Miguel">
+                <img class="imagem-desenvolvedor" src="../img/img-icon-avatar.png" alt="Miguel">
                 <p class="nome-desenvolvedor">Miguel Francisco da Silva Sales</p>
             </div>
             <div class="desenvolvedor">
-                <img class="imagem-desenvolvedor" src="../img/avatar-15.png" alt="Matheus">
+                <img class="imagem-desenvolvedor" src="../img/img-icon-avatar.png" alt="Matheus">
                 <p class="nome-desenvolvedor">Matheus Arantes Villar</p>
             </div>
             <div class="desenvolvedor">
-                <img class="imagem-desenvolvedor" src="../img/avatar-15.png" alt="Murilo">
+                <img class="imagem-desenvolvedor" src="../img/img-icon-avatar.png" alt="Murilo">
                 <p class="nome-desenvolvedor">Murilo Ferreira Faria Santana</p>
             </div>
         </div>
