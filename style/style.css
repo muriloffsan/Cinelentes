@@ -435,7 +435,7 @@ html {
   padding: 0 32px;
   height: 100px;
 }
-<<<<<<< HEAD
+
 .botao-login-container {
   position: absolute;
   right: 32px; 
@@ -705,9 +705,5 @@ html {
 }
 .botao-criar-projeto:hover {
     background-color: #026c0c; 
-=======
-
-.div-vazia{
-  width: 170px;
->>>>>>> b6b8ac7fc05ff64746cadf641d896ea0d5bc2d77
 }
+
