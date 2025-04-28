@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial - Cinelentes</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="./js/main.js"></script>
 </head>
 <body class="body-pagina-inicial">
@@ -43,6 +44,11 @@
                 <img src="./img/logo-cinelentes.png" alt="">
             </div>
         </div>
+        <div id="grid-destaques">
+            <div id="titulo">
+                <h1 class="titulo-pagina-inicial">Destaques</h1>
+            </div>
+            <div class="linha-oque-cinelentes"></div>
         <div class="alinhamento-carrossel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -53,41 +59,19 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
-            <div class="carousel-item active" >
-                <img id="tamanho_da_imagem" class="d-block w-100" src="./img/archaeological-cave-paintings.jpg" alt="Primeiro Slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>História Primitiva</h5>
-                </div>
-            </div>
-
-                <div class="carousel-item" >
-                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/historia_antiga.jpg" alt="Segundo Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>História Antiga</h5>
+                        <div class="carousel-item active" >
+                            <img id="tamanho_da_imagem" class="d-block w-100" src="./img/logo-sesi-senai.png" alt="Primeiro Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Dia da Mulher</h5>
+                        </div>
+                    </div>  
+                    <div class="carousel-item" >
+                        <img id="tamanho_da_imagem" class="d-block w-100" src="./img/logo-cinelentes.png" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Dia da Consciência Negra</h5>
+                        </div>
                     </div>
                 </div>
-
-                <div class="carousel-item" >
-                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/idade_media.jpg" alt="Terceiro Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Idade Média</h5>
-                    </div>
-                </div>
-
-                <div class="carousel-item" >
-                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/idade_moderna.jpg" alt="Quarto Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Idade Moderna</h5>
-                    </div>
-                </div>
-
-                <div class="carousel-item" >
-                    <img id="tamanho_da_imagem" class="d-block w-100" src="./img/idade_contemporanea.jpg" alt="Quarto Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Idade Contemporânea</h5>
-                    </div>
-                </div>
-            </div>
 
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
