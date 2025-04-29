@@ -33,18 +33,17 @@
 </header>
 
 <main class="main-container">
-    
-    <!-- Seção Inicial -->
     <section class="secao-inicial">
-        <input type="text" placeholder="Digite o título do projeto" class="input-titulo-projeto">
-        <textarea placeholder="Digite aqui o conteúdo de apresentação do projeto. (Sobre e a data de realização do projeto)" class="textarea-conteudo-projeto"></textarea>
-        <div class="upload-final-video">
-            <p>Faça o upload do vídeo final do projeto</p>
-            <button class="botao-upload">⬆️ Upload de Vídeo</button>
-        </div>
-    </section>
+  <div class="informacoes-iniciais">
+    <input type="text" placeholder="Digite o título do projeto" class="input-titulo-projeto">
+    <textarea placeholder="Digite aqui o conteúdo de apresentação do projeto. (Sobre e a data de realização do projeto)" class="textarea-conteudo-projeto"></textarea>
+  </div>
 
-    <!-- Seção Curta Metragem -->
+  <div class="upload-final-video">
+    <p>Faça o upload do vídeo final do projeto</p>
+    <button class="botao-upload">⬆️ Upload de Vídeo</button>
+  </div>
+</section>
     <section class="secao-curta-metragem">
         <h2>Curta-metragem</h2>
         <div class="upload-buttons">
@@ -55,8 +54,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Seção Fotos -->
     <section class="secao-fotos">
         <h2>Fotos</h2>
         <div class="upload-buttons">
@@ -66,8 +63,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Seção Vídeos -->
     <section class="secao-videos">
         <h2>Vídeos</h2>
         <div class="upload-buttons">
@@ -83,8 +78,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Seção Músicas -->
     <section class="secao-musicas">
         <h2>Músicas</h2>
         <div class="musica-item">
@@ -103,14 +96,10 @@
             <input type="text" placeholder="Digite o nome da Música" class="input-musica">
         </div>
     </section>
-
-    <!-- Seção Habilidades Desenvolvidas -->
     <section class="secao-habilidades">
         <h2>Habilidades desenvolvidas</h2>
         <textarea placeholder="Digite aqui as expectativas trabalhadas e as hashtags (se tiver)." class="textarea-habilidades"></textarea>
     </section>
-
-    <!-- Seção Deixe seu Feedback -->
     <section class="secao-feedback">
         <h2>Deixe seu Feedback</h2>
         <textarea placeholder="Suba o link do formulário do seu projeto para os alunos darem suas avaliações quanto ao projeto (Pode ser adicionado futuramente através da edição)." class="textarea-feedback"></textarea>

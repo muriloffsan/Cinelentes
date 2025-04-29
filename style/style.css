@@ -842,3 +842,34 @@ html {
   color: #000;
   margin-bottom: 0.5rem;
 }
+.secao-inicial {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.informacoes-iniciais {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-titulo-projeto {
+  height: 50px;
+}
+
+.textarea-conteudo-projeto {
+  height: 200px;
+  resize: vertical;
+}
+
+.upload-final-video {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin-top: 1rem;
+}
+
