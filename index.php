@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinelentes</title>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="./js/main.js"></script>
 </head>
 <body class="body-pagina-inicial">
@@ -49,49 +48,6 @@
                 <h1 class="titulo-pagina-inicial">Destaques</h1>
             </div>
             <div class="linha-destaques"></div>
-            <div class="alinhamento-carrossel" style="grid-column: 1 / span 2;">
-                <div class="carousel-container">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="./img/logo-sesi-senai.png" class="d-block w-100" alt="Primeiro Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Dia da Mulher</h5>
-                        </div>
-                        </div>
-                        <div class="carousel-item">
-                        <img src="./img/logo-cinelentes.png" class="d-block w-100" alt="Segundo Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Dia da Consciência Negra</h5>
-                        </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Próximo</span>
-                    </a>
-                    </div>
-                </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
-                </div>
-            </div> 
 
         <div id="grid-agenda">
             <div id="titulo-agenda">
@@ -102,16 +58,15 @@
         </div>
     </main>
     <footer class="footer-container">
-    <div class="footer-topo">
-        <div class="div-vazia"></div>
-        <div class="footer-logo-container">
-            <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="CineLentes">
+        <div class="footer-topo">
+            <div class="div-vazia"></div>
+            <div class="footer-logo-container">
+                <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="Cinelentes">
+            </div>
+            <div class="botao-login-container">
+                <a href="./php/login.php" class="botao-login">Login Administrador</a>
+            </div>
         </div>
-
-        <div class="botao-login-container">
-            <a href="./php/login.php" class="botao-login">Login Administrador</a>
-        </div>
-    </div>
 
     <div class="linha-branca-footer"></div>
 

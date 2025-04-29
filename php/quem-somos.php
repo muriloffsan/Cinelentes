@@ -21,14 +21,13 @@
             <div class="dropdown">
                 <a onclick="myFunction()" class="dropbtn">EDIÇÕES</a>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="./php/edicao2023.php">EDIÇÃO 2023</a>
-                    <a href="./php/edicao2024.php">EDIÇÃO 2024</a>
-                    <a href="./php/edicao2025.php">EDIÇÃO 2025</a>
-                    <a href="./criar-projeto-adm.php">EDIÇÃO 2026</a>               
+                    <a href="edicao2023.php">EDIÇÃO 2023</a>
+                    <a href="edicao2024.php">EDIÇÃO 2024</a>
+                    <a href="edicao2025.php">EDIÇÃO 2025</a>
                 </div>
             </div>
-            <li><a class="informacoes-navbar-menu" href="./php/quem-somos.php">QUEM SOMOS</a></li>
-            <li><a class="informacoes-navbar-menu" href="../index.php">AGENDA</a></li>
+            <li><a class="informacoes-navbar-menu" href="#">QUEM SOMOS</a></li>
+            <li><a class="informacoes-navbar-menu" href="../index.php#grid-agenda">AGENDA</a></li>
         </ul>     
     </div>
 </header>
@@ -85,7 +84,7 @@
     <div class="footer-topo">
         <div class="div-vazia"></div>
         <div class="footer-logo-container">
-            <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="CineLentes">
+            <img id="logo-cinelentes-footer" src="../img/logo-cinelentes.png" alt="CineLentes">
         </div>
 
         <div class="botao-login-container">

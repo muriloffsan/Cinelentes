@@ -10,8 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ---------------------- HEADER ---------------------- */
+a {
+  text-decoration: none;
+}
 
+/* ---------------------- HEADER ---------------------- */
 .header-container {
   background-color: black;
 }
@@ -104,7 +107,6 @@ html {
 }
 
 /* ---------------------- LOGIN E REDEFINIR SENHA ---------------------- */
-
 .body-login,
 .body-redefinir-senha {
   height: 100vh;
@@ -213,7 +215,6 @@ html {
 }
 
 /* ---------------------- PÁGINA INICIAL ---------------------- */
-
 #grid-introducao,
 #grid-destaques {
   display: grid;
@@ -236,14 +237,7 @@ html {
   font-size: 32px;
 }
 
-.linha-oque-cinelentes {
-  margin-top: 97px;
-  margin-right: 50px;
-  width: 800px;
-  height: 1.5px;
-  background-color: black;
-}
-
+.linha-oque-cinelentes,
 .linha-destaques {
   margin-top: 97px;
   margin-right: 50px;
@@ -312,8 +306,8 @@ html {
 .carousel-caption {
   position: absolute;
   top: 0;
-  left: 0 !important;
-  right: 0 !important;
+  left: 0;
+  right: 0;
   padding: 10px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
   color: white;
@@ -323,7 +317,6 @@ html {
 }
 
 /* ---------------------- QUEM SOMOS ---------------------- */
-
 .equipe-container {
   text-align: center;
   padding: 64px 32px;
@@ -379,12 +372,30 @@ html {
   font-weight: 500;
 }
 
-/* FOOTER */
-
+/* ---------------------- FOOTER ---------------------- */
 .footer-container {
   background-color: black;
   width: 100%;
   padding-top: 4px;
+}
+
+.footer-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 32px;
+  height: 100px;
+}
+
+.div-vazia {
+  width: 70px;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #logo-cinelentes-footer {
@@ -392,13 +403,18 @@ html {
   width: auto;
 }
 
-.botao-login {
+.botao-login-container {
+  position: absolute;
+  right: 32px;
   display: flex;
+  align-items: center;
+}
+
+.botao-login {
   background-color: #c0392b;
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
-  text-decoration: none;
   font-weight: 600;
   font-size: 14px;
   transition: background-color 0.3s;
@@ -411,7 +427,6 @@ html {
 .linha-branca-footer {
   border-top: 2px solid white;
   width: 100%;
-
 }
 
 .linha-preta-footer {
@@ -428,21 +443,6 @@ html {
   font-weight: 400;
 }
 
-.footer-topo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  padding: 0 32px;
-  height: 100px;
-}
-
-.botao-login-container {
-  position: absolute;
-  right: 32px;
-  display: flex;
-  align-items: center;
-}
 
 /* ------------------------ACERVOS------------------------ */
 
