@@ -95,8 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input class="input-email-senha" name="senha" type="password" placeholder="Senha" required />
           </div>
 
-          <button type="submit" class="botao-entrar">ENTRAR</button>
-
+          <a href="pagina-inicial-adm.php" class="botao-entrar">ENTRAR</a>
           <a href="redefinir-senha.php" class="bot-esqueceu-senha">Esqueceu a senha?</a>
         </form>
       </div>

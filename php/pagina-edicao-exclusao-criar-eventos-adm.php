@@ -283,7 +283,7 @@
         </div>
 
         <div class="botao-login-container">
-            <a href="./php/login.php" class="botao-login">Login Administrador</a>
+            <a href="login.php" class="botao-login">Login Administrador</a>
         </div>
     </div>
 

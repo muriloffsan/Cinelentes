@@ -36,41 +36,41 @@
       <div class="titulo-acervo">
         <h1 class="titulo-acervo-h1">Acervo Cinelentes - 2023</h1>
         <div class="linha-preta-acervo-titulo"></div>
-
       </div>
 
 
       <div class="cards">
-        <div class="card">
-          <img src="Bitelo.png" alt="Festival Mês da Mulher">
+        <a href="mes-mulher.php" class="card">
+          <img src="../img/img-mes-mulher.jpg" alt="Festival Mês da Mulher">
           <div class="card-text">1° Festival Cinelentes<br>Mês da Mulher</div>
-        </div>
+        </a>
 
-        <div class="card">
-          <img src="caminho-da-sua-imagem-2.png" alt="Festival LGBTQIAPN+">
+        <a href="mes-mulher.php" class="card">
+          <img src="../img/img-lgbt.jpg" alt="Festival LGBTQIAPN+">
           <div class="card-text">4° Festival Cinelentes<br>LGBTQIAPN+</div>
-        </div>
+        </a>
 
-        <div class="card">
-          <img src="caminho-da-sua-imagem-3.png" alt="Festival Povos Originários">
+        <a href="mes-mulher.php" class="card">
+          <img src="../img/img-povos-originarios.jpg" alt="Festival Povos Originários">
           <div class="card-text">2° Festival Cinelentes<br>Povos Originários</div>
-        </div>
+        </a>
 
-        <div class="card">
-          <img src="caminho-da-sua-imagem-4.png" alt="Festival Inclusão">
+        <a href="mes-mulher.php" class="card">
+          <img src="../img/img-inclusao.jpg" alt="Festival Inclusão">
           <div class="card-text">5° Festival Cinelentes<br>Inclusão</div>
-        </div>
+        </a>
 
-        <div class="card">
-          <img src="caminho-da-sua-imagem-5.png" alt="Festival Mês do Trabalho">
+        <a href="mes-mulher.php" class="card">
+          <img src="../img/img-mes-trabalho.jpg" alt="Festival Mês do Trabalho">
           <div class="card-text">3° Festival Cinelentes<br>Mês do Trabalho</div>
-        </div>
+        </a>
 
-        <div class="card">
-          <img src="caminho-da-sua-imagem-6.png" alt="Festival Consciência Negra">
-          <div class="card-text">6° Festival Cinelentes<br>Povos Consciência Negra</div>
-        </div>
+        <a href="mes-mulher.php" class="card">
+          <img src="../img/img-consciencia-negra.jpg" alt="Festival Consciência Negra">
+          <div class="card-text">6° Festival Cinelentes<br>Consciência Negra</div>
+        </a>
       </div>
+
     </section>
   </main>
 
@@ -78,11 +78,10 @@
     <div class="footer-topo">
         <div class="div-vazia"></div>
         <div class="footer-logo-container">
-            <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="CineLentes">
+            <img id="logo-cinelentes-footer" src="../img/logo-cinelentes.png" alt="CineLentes">
         </div>
-
         <div class="botao-login-container">
-            <a href="./php/login.php" class="botao-login">Login Administrador</a>
+            <a href="login.php" class="botao-login">Login Administrador</a>
         </div>
     </div>
 

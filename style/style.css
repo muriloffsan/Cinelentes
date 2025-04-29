@@ -191,6 +191,8 @@ a {
 
 .botao-entrar,
 .botao-enviar {
+  display: flex;
+  justify-content: center;
   width: 100%;
   padding: 12px;
   background-color: #d82323;
@@ -204,9 +206,10 @@ a {
 
 .bot-esqueceu-senha {
   font-size: 12px;
-  text-align: center;
   color: #000;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
 
 .img-icon {
@@ -382,14 +385,14 @@ a {
 .footer-topo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
-  padding: 0 32px;
+  padding: 32px;
   height: 100px;
 }
 
 .div-vazia {
-  width: 70px;
+  width: 150px;
 }
 
 .footer-logo-container {
@@ -401,6 +404,7 @@ a {
 #logo-cinelentes-footer {
   height: 70px;
   width: auto;
+  margin-right: 150px;
 }
 
 .botao-login-container {
