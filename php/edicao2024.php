@@ -9,14 +9,35 @@
 </head>
 <body class="body-pagina-inicial">
     
+<header class="header-container">
+        <nav class="parte-cima-header-container">
+            <img id="logo-sesi-senai" src="./img/logo-sesi-senai.png" alt="SESI - SENAI">
+            <img id="logo-cinelentes" src="img/logo-cinelentes.png" alt="CineLentes">
+        </nav>
+        <div class="linha-branca"></div>
+        <div class="navbar-menu-container">
+            <ul class="navbar-menu">
+                <li><a class="informacoes-navbar-menu" href="index.php">INÍCIO</a></li>
+                <div class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">EDIÇÕES</a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./php/edicao2023.php">EDIÇÃO 2023</a>
+                        <a href="./php/edicao2024.php">EDIÇÃO 2024</a>
+                        <a href="./php/edicao2025.php">EDIÇÃO 2025</a>
+                    </div>
+                </div>
+                <li><a class="informacoes-navbar-menu" href="./php/quem-somos.php">QUEM SOMOS</a></li>
+                <li><a class="informacoes-navbar-menu" href="#grid-agenda">AGENDA</a></li>
+            </ul>     
+        </div>
+    </header>
+
     <main class="main-acervos">
     <section class="acervo">
       <div class="titulo-acervo">
         <h1 class="titulo-acervo-h1">Acervo Cinelentes - 2024</h1>
         <div class="linha-preta-acervo-titulo"></div>
-
       </div>
-      
 
       <div class="cards">
         <div class="card">
@@ -52,21 +73,22 @@
     </section>
   </main>
 
-  <footer class="footer-container-acervo">
-    <div class="footer-topo-acervo">
-        <div class="footer-logo-container-acervo">
-            <img id="logo-cinelentes-footer-acervo" src="../img/logo-cinelentes.png" alt="CineLentes">
+  <footer class="footer-container">
+    <div class="footer-topo">
+        <div class="div-vazia"></div>
+        <div class="footer-logo-container">
+            <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="CineLentes">
         </div>
 
-        <div class="botao-login-container-acervo">
-            <a href="./php/login.php" class="botao-login-acervo">Login Administrador</a>
+        <div class="botao-login-container">
+            <a href="./php/login.php" class="botao-login">Login Administrador</a>
         </div>
     </div>
 
-    <div class="linha-branca-footer-acervo"></div>
+    <div class="linha-branca-footer"></div>
 
-    <div class="linha-preta-footer-acervo">
-        <p class="footer-direitos-acervo">Todos os direitos reservados.</p>
+    <div class="linha-preta-footer">
+        <p class="footer-direitos">Todos os direitos reservados.</p>
     </div>
 </footer>
 

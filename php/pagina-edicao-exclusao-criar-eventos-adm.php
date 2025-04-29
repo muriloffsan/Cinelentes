@@ -7,7 +7,28 @@
   <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-
+<header class="header-container">
+        <nav class="parte-cima-header-container">
+            <img id="logo-sesi-senai" src="./img/logo-sesi-senai.png" alt="SESI - SENAI">
+            <img id="logo-cinelentes" src="img/logo-cinelentes.png" alt="CineLentes">
+        </nav>
+        <div class="linha-branca"></div>
+        <div class="navbar-menu-container">
+            <ul class="navbar-menu">
+                <li><a class="informacoes-navbar-menu" href="index.php">INÍCIO</a></li>
+                <div class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">EDIÇÕES</a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./php/edicao2023.php">EDIÇÃO 2023</a>
+                        <a href="./php/edicao2024.php">EDIÇÃO 2024</a>
+                        <a href="./php/edicao2025.php">EDIÇÃO 2025</a>
+                    </div>
+                </div>
+                <li><a class="informacoes-navbar-menu" href="./php/quem-somos.php">QUEM SOMOS</a></li>
+                <li><a class="informacoes-navbar-menu" href="#grid-agenda">AGENDA</a></li>
+            </ul>     
+        </div>
+    </header>
   <main class="main-acervos">
 
     <div class="topo-acervo">
@@ -254,15 +275,24 @@
 
   </main>
 
-  <footer class="footer-container-acervo">
-    <div class="footer-topo-acervo">
-      <img id="logo-cinelentes-footer-acervo" src="logo.png" alt="Logo Cinelentes">
+  <footer class="footer-container">
+    <div class="footer-topo">
+        <div class="div-vazia"></div>
+        <div class="footer-logo-container">
+            <img id="logo-cinelentes-footer" src="./img/logo-cinelentes.png" alt="CineLentes">
+        </div>
+
+        <div class="botao-login-container">
+            <a href="./php/login.php" class="botao-login">Login Administrador</a>
+        </div>
     </div>
-    <div class="linha-branca-footer-acervo"></div>
-    <div class="linha-preta-footer-acervo">
-      <p class="footer-direitos-acervo">© 2025 Todos os direitos reservados</p>
+
+    <div class="linha-branca-footer"></div>
+
+    <div class="linha-preta-footer">
+        <p class="footer-direitos">Todos os direitos reservados.</p>
     </div>
-  </footer>
+</footer>
 
 </body>
 </html>
